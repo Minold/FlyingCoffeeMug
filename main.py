@@ -82,7 +82,7 @@ def main():
 
         DISPLAY.fill((231, 205, 183))
         # fill the start message on the top of the game
-        startMessage = font_small.render("POLYMARS", True, (171, 145, 123))
+        startMessage = font_small.render("Minyoung Chung", True, (171, 145, 123))
         DISPLAY.blit(startMessage, (DISPLAY.get_width()/2 - startMessage.get_width()/2, DISPLAY.get_height()/2 - startMessage.get_height()/2))
             
         # update display
