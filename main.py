@@ -65,7 +65,7 @@ def main():
     last_time = time.time()
     splashScreenTimer = 0
     #splash screen
-    # playing a sound
+    # playing a sounds
     pygame.mixer.Sound.play(flapfx)
     while splashScreenTimer < 100:
         dt = time.time() - last_time
